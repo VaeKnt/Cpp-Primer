@@ -1,0 +1,14 @@
+Exercise 2.9:
+a) variable declared at std::cin. Should be:
+ int input value;
+ std::cin >> input_value;
+b) int i = {3.14}; illegal because 3.14 is not an int literal. Will truncatec) No type specifier and no comma separation. Should be:
+   double salary = 999.99, wage = salary;
+d) same as b)
+
+Exercise 2.10:
+global_str = string value of 0
+global_int = 0
+local_int = undefined
+local_str = undefined
+ 

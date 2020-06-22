@@ -1,0 +1,20 @@
+Exercise 2.5:
+a) 'a' = char, L'a' = wchar_t, "a" = string, L"a" = wide string
+ Difference is in size of the char types and string types
+b) 10 = int, 10u = unsigned, 10L = 10 long, 10uL = unsigned long, 012 = octal, 0xC = hexadecimal
+ Difference is in what base the number is and the size of the object
+c) 3.14 = float, 3.14f = float, 3.14 = long 
+ Difference in size of object? 
+d) 10 - int, 10u = unsigned, 10. = float, 10e-2 = float
+
+Exercise 2.6
+9 and 09 vs 7 and 07: the literals with the prefix 0 are octal
+
+Exercise 2.7:
+a) "Who goes with F\145rgus?\012" = string literal which will then output as: Who goes with Fergus?
+ the \012 is \n == newline character.
+b) 3.14e1L = long double and will output as 31.41
+c) 1024f = float which will output as 1024.0
+d) 3.14L = long double which will output as 3.14
+
+ 

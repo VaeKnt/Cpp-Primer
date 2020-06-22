@@ -1,0 +1,4 @@
+I did not finish the last 2 exercises due to the malfunctioning of the 
+sales_item header file. Can't be bothered going through the fix right now. 
+
+
