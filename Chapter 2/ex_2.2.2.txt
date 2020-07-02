@@ -1,0 +1,5 @@
+Exercise 2.11:
+a) Definition due to initialization
+b) Declaration and definition => definition
+c) declaration
+

@@ -1,0 +1,28 @@
+Exercise 2.19:
+Pointers vs References:
+- Once references are bound, they can't be rebound to another object, while pointers can point to different objects through the course of its use. 
+- Pointers do not need to be initialized at the time of definition
+- Pointers have block scope
+
+Exercise 2.20:
+int i = 42;   // Assigns int value 42 to i
+int *p1 = &i; // defines pointer p1 initialized to address of i
+*p1 = *p1 * *p1 // value of i is replaced with square of i since *p1 = 42 = value of i
+
+Exercise 2.21
+int i = 0;
+a) double* dp = &i; //Illegal because type of i and dp do not match
+b) int *ip = i; // Illegal, i is not an address
+c) int *p = &i; //Legal
+
+Exercise 2.22
+if (p) // If p is not a null pointer, the condition is true and so the body of the conditional is evaluate, else body is skipped
+if (*p) // If the value of the object to which p points to is nonzero, then the condition is true and the body of the conditional is evaluated, else skipped.
+
+Exercise 2.23:
+Try to copy or access the value of an invalid pointer and an error will occur. 
+
+Exercise 2.24:
+i is of type int and lp is of type long, the types don't match and thus result in error. However, pointers of type void can hold the address of any ovject, hence the initialization of p is legal.
+
+

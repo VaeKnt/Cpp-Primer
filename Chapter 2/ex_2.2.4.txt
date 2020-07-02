@@ -1,0 +1,8 @@
+Exercise 2.13:
+j has value 100 since we use the local definition of i and there is no scope operator "::"
+
+Exercise 2.14:
+It is legal, the output would be:
+100 (outer scope i = 100)
+45  (sum of i from i=0 to i=9)
+

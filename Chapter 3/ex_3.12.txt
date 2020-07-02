@@ -1,0 +1,5 @@
+Exercise 3.12:
+
+a) vector<vector<int>> ivec; Legal, ivec is a vector whose elements are vectors that hold ints
+b) vector<string> svec = ivec; Illegal, ivec elements and svec elements are not of the same type
+c) vector<string> svec(10,"null"); Legal, svec is then a vector of size ten where each element is the string "null"

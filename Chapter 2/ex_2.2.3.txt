@@ -1,0 +1,6 @@
+Exercise 2.12:
+a) double is reserved, invalid
+b) _ is fine
+c) catch-22 possesses a hyphen which invalidates variable names
+d) 1_or_2 starts with neither a letter or an underscore, thus invalid
+e) Double is fine

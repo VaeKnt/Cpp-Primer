@@ -1,0 +1,4 @@
+Exercise 2.25:
+a) int *ip, i, &r = i;    ip is pointer to int, i is an int, &r is a reference to i
+b) int i, *ip = 0;, i is int, ip is nullpointer
+c) int* ip, ip2, ip is pointer to an int, ip2 is an int

@@ -1,0 +1,11 @@
+Exercise 3.13:
+
+a) vector<int> v1; Empty vector v1 that can hold ints
+b) vector<int> v2(10); Vector size 10 where each element is 0
+c) vector<int> v3(10,42); Vector of size 10 where each element is 42
+d) vector<int> v4{10}; Vector with a single element: 10.
+e) vector<int> v5{10,42}; Vector of size 2 with elements 10 and 42.
+f) vector<string> v6{10}; Vector of size 10 where each element is the empty string
+g) vector<string> v7{10, "hi"}; Vector of size 10 where each element is the string "hi"
+
+

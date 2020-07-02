@@ -1,0 +1,1 @@
+I have done sections 2.1 to 2.4 inclusive and read a bit of 2.5. I have decided not to look at some sections of 2.4 and 2.5,2.6 in detail because it is not the most important thing at this point in time. I need to get up to speed in C++ for doing CP problems. I will return to these sections as needed.

@@ -1,0 +1,3 @@
+Exercise 3.3:
+cin reads strings separated by whitespaces, getline reads strings separated by newlines. 
+

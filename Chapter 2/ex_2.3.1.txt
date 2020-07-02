@@ -1,0 +1,21 @@
+Exercise 2.15:
+a) int ival = 1.01; valid
+b) int &rval = 1.01; invalid: references must be defined with the initializer as an object, not a literal
+c) int &rval2 = ival; valid
+d) int &rval3; invalid: references must be initialized
+
+Exercise 2.16:
+a) r2 = 3.14159; valid, assigns object to which r2 refers to (d) new value of 3.14159. 
+b) r2 = r1; valid, assigns value to r2 which r1 refers to: i  
+c) i = r2; valid, assigns to i the value to which object r2 refers to.
+d) r1 = d; valid, assigns to object to which r1 refers to (i) the value of d 
+
+Exercise 2.17:
+
+int i, &ri = i;
+i = 5; ri = 10;
+std::cout << i << " " << ri << std::endl
+
+OUTPUT: 10 10
+
+
